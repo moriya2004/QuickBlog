@@ -5,10 +5,7 @@ function Header() {
   return (
     <div className="mx-8 sm:mx-16 xl:mx-24 relative">
       <div className="text-center mt-20 mb-8">
-        <div
-          className="inline-flex items-center justify-center gap-4 px-6 py-1.5 mb-4 border border-primary/40 bg-primary/10 rounded-full text-sm 
-text-primary"
-        >
+        <div className="inline-flex items-center justify-center gap-4 px-6 py-1.5 mb-4 border border-primary/40 bg-primary/10 rounded-full text-sm text-primary">
           <p>New: AI feature integrated</p>
           <img src={assets.star_icon} alt="" className="w-2.5" />
         </div>
@@ -24,6 +21,8 @@ text-primary"
         <form className="flex justify-between max-w-lg max-sm:scale-75 mx-auto border border-gray-300 bg-white rounded overflow-hidden">
           <input
             type="text"
+            name="blogSearch"
+            id="blogSearch"
             placeholder="Search for blogs"
             required
             className="w-full pl-4 outline-none"
